@@ -62,12 +62,17 @@
       {
         "@type": "Other",
         "label": "Label",
-        "uri": "https://edustake.updev.africa"
+        "uri": "https://uptodatedevelopers.com"
       },
       {
         "@type": "Other",
         "label": "Label",
         "uri": "https://updevcommunity.com"
+      },
+      {
+        "@type": "Other",
+        "label": "Label",
+        "uri": "https://edustake.updev.africa"
       }
     ]
   }
