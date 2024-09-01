@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP100:IdentityReference",
+            "Link": "CIP100:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "Cardano Africa Community dRep",
+    "motivations": "I want to be a DRep to empower African ADA holders and drive Cardano's growth in the region. My experience as a tech entrepreneur and community leader has shown me the impact of decentralized technology. I've seen firsthand how innovation can transform communities and am committed to representing African interests in Cardano’s governance. My background in tech and community engagement equips me to contribute effectively to Cardano’s mission and its positive impact on Africa.",
+    "objectives": "As Cardano Africa Community dRep, our mission is to amplify African voices in Cardano governance. We believe in leveraging decentralized technology to drive economic growth and innovation in Africa. Committed to transparency and inclusivity, we aim to ensure that the interests of African ADA holders are well-represented, contributing to Cardano’s evolution as a catalyst for positive change and equality across the continent.",
+    "paymentAddress": "addr_test1qrsx4q0lzye3lafgavqytyspp5pnhg7ty4h9gsrcg0t4cl73rdvjlny3xczah3pyt822azacnjzguyujvy3m4jz7926sg4k0p2",
+    "qualifications": "I bring a strong background in technology and community leadership, with experience in blockchain development and project management. My expertise includes:\n\nDeep understanding of Cardano’s technology and governance.\nProven track record in managing tech projects and leading teams.\nActive involvement in tech communities and advocacy for decentralized solutions.\nStrong analytical skills for evaluating proposals and making informed decisions.",
+    "references": [
+      {
+        "@type": "Other",
+        "label": "Label",
+        "uri": "https://uptodatedevelopers.com"
+      },
+      {
+        "@type": "Other",
+        "label": "Label",
+        "uri": "https://updevcommunity.com"
+      },
+      {
+        "@type": "Other",
+        "label": "Label",
+        "uri": "https://edustake.updev.africa"
+      }
+    ]
+  }
+}
